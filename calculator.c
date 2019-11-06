@@ -14,21 +14,37 @@ int main()
 
 int addition(x, y)
 {
-	return 0;
+	int sum = 0;
+	
+	sum = x + y;
+	
+	return sum;
 }
 
 int subtraction(x, y)
 {
+	int diff = 0;
+	
+	diff = x - y;
+
 	return 0;
 }
 
 int multiplication(x, y)
 {
-	return 0;
+	int prod = 0;
+	
+	prod = x* y;
+	
+	return prod;
 }
 
 int division(x,y)
 {
+	int quo = 0;
+	
+	quo = x / y;
+
 	return 0;
 }
 
