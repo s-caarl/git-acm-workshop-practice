@@ -2,9 +2,9 @@
 
 #include <stdio.h>
 
-int addition(x, y);
-int subtraction(x, y);
-int multiplication(x, y);
+int addition(int x, int y);
+int subtraction(int x, int y);
+int multiplication(int x, int y);
 int division(x,y);
 
 int main()
@@ -12,7 +12,7 @@ int main()
 	return 0;
 }
 
-int addition(x, y)
+int addition(int x, int y)
 {
 	int sum = 0;
 	
@@ -21,7 +21,7 @@ int addition(x, y)
 	return sum;
 }
 
-int subtraction(x, y)
+int subtraction(int x, int y)
 {
 	int diff = 0;
 	
@@ -30,7 +30,7 @@ int subtraction(x, y)
 	return 0;
 }
 
-int multiplication(x, y)
+int multiplication(int x, int y)
 {
 	int prod = 0;
 	
@@ -39,7 +39,7 @@ int multiplication(x, y)
 	return prod;
 }
 
-int division(x,y)
+int division(int x, int y)
 {
 	int quo = 0;
 	
